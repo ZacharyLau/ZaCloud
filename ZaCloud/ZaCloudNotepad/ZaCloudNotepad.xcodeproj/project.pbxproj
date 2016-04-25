@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7952F2C51C5E440200960EFA /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952F2C41C5E440200960EFA /* Note.swift */; };
+		7952F2C71C5E498400960EFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952F2C61C5E498400960EFA /* User.swift */; };
+		79D5C8B51C555B69003E3457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5C8B41C555B69003E3457 /* AppDelegate.swift */; };
+		79D5C8BC1C555B69003E3457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D5C8BB1C555B69003E3457 /* Assets.xcassets */; };
+		79D5C8CA1C555B6A003E3457 /* ZaCloudNotepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5C8C91C555B6A003E3457 /* ZaCloudNotepadTests.swift */; };
+		79D5C8D51C555B6A003E3457 /* ZaCloudNotepadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5C8D41C555B6A003E3457 /* ZaCloudNotepadUITests.swift */; };
+		79D5C8E41C557928003E3457 /* NotepadIndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5C8E31C557928003E3457 /* NotepadIndexTableViewController.swift */; };
+		79D5C8E61C55795F003E3457 /* NotepadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5C8E51C55795F003E3457 /* NotepadTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79D5C8C61C555B6A003E3457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D5C8A91C555B69003E3457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D5C8B01C555B69003E3457;
+			remoteInfo = ZaCloudNotepad;
+		};
+		79D5C8D11C555B6A003E3457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D5C8A91C555B69003E3457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D5C8B01C555B69003E3457;
+			remoteInfo = ZaCloudNotepad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7952F2C41C5E440200960EFA /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7952F2C61C5E498400960EFA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		79D5C8B11C555B69003E3457 /* ZaCloudNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaCloudNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D5C8B41C555B69003E3457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79D5C8BB1C555B69003E3457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79D5C8C01C555B69003E3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D5C8C51C555B6A003E3457 /* ZaCloudNotepadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaCloudNotepadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D5C8C91C555B6A003E3457 /* ZaCloudNotepadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaCloudNotepadTests.swift; sourceTree = "<group>"; };
+		79D5C8CB1C555B6A003E3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D5C8D01C555B6A003E3457 /* ZaCloudNotepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaCloudNotepadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D5C8D41C555B6A003E3457 /* ZaCloudNotepadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaCloudNotepadUITests.swift; sourceTree = "<group>"; };
+		79D5C8D61C555B6A003E3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D5C8E31C557928003E3457 /* NotepadIndexTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotepadIndexTableViewController.swift; sourceTree = "<group>"; };
+		79D5C8E51C55795F003E3457 /* NotepadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotepadTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D5C8AE1C555B69003E3457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D5C8C21C555B6A003E3457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D5C8CD1C555B6A003E3457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7952F2C31C5E43D800960EFA /* BasicClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7952F2C41C5E440200960EFA /* Note.swift */,
+				7952F2C61C5E498400960EFA /* User.swift */,
+			);
+			name = BasicClasses;
+			sourceTree = "<group>";
+		};
+		79D5C8A81C555B69003E3457 = {
+			isa = PBXGroup;
+			children = (
+				7952F2C31C5E43D800960EFA /* BasicClasses */,
+				79D5C8E21C557877003E3457 /* ViewController */,
+				79D5C8B31C555B69003E3457 /* ZaCloudNotepad */,
+				79D5C8C81C555B6A003E3457 /* ZaCloudNotepadTests */,
+				79D5C8D31C555B6A003E3457 /* ZaCloudNotepadUITests */,
+				79D5C8B21C555B69003E3457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D5C8B21C555B69003E3457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D5C8B11C555B69003E3457 /* ZaCloudNotepad.app */,
+				79D5C8C51C555B6A003E3457 /* ZaCloudNotepadTests.xctest */,
+				79D5C8D01C555B6A003E3457 /* ZaCloudNotepadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D5C8B31C555B69003E3457 /* ZaCloudNotepad */ = {
+			isa = PBXGroup;
+			children = (
+				79D5C8B41C555B69003E3457 /* AppDelegate.swift */,
+				79D5C8BB1C555B69003E3457 /* Assets.xcassets */,
+				79D5C8C01C555B69003E3457 /* Info.plist */,
+			);
+			path = ZaCloudNotepad;
+			sourceTree = "<group>";
+		};
+		79D5C8C81C555B6A003E3457 /* ZaCloudNotepadTests */ = {
+			isa = PBXGroup;
+			children = (
+				79D5C8C91C555B6A003E3457 /* ZaCloudNotepadTests.swift */,
+				79D5C8CB1C555B6A003E3457 /* Info.plist */,
+			);
+			path = ZaCloudNotepadTests;
+			sourceTree = "<group>";
+		};
+		79D5C8D31C555B6A003E3457 /* ZaCloudNotepadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79D5C8D41C555B6A003E3457 /* ZaCloudNotepadUITests.swift */,
+				79D5C8D61C555B6A003E3457 /* Info.plist */,
+			);
+			path = ZaCloudNotepadUITests;
+			sourceTree = "<group>";
+		};
+		79D5C8E21C557877003E3457 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79D5C8E31C557928003E3457 /* NotepadIndexTableViewController.swift */,
+				79D5C8E51C55795F003E3457 /* NotepadTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D5C8B01C555B69003E3457 /* ZaCloudNotepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D5C8D91C555B6A003E3457 /* Build configuration list for PBXNativeTarget "ZaCloudNotepad" */;
+			buildPhases = (
+				79D5C8AD1C555B69003E3457 /* Sources */,
+				79D5C8AE1C555B69003E3457 /* Frameworks */,
+				79D5C8AF1C555B69003E3457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaCloudNotepad;
+			productName = ZaCloudNotepad;
+			productReference = 79D5C8B11C555B69003E3457 /* ZaCloudNotepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79D5C8C41C555B6A003E3457 /* ZaCloudNotepadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D5C8DC1C555B6A003E3457 /* Build configuration list for PBXNativeTarget "ZaCloudNotepadTests" */;
+			buildPhases = (
+				79D5C8C11C555B6A003E3457 /* Sources */,
+				79D5C8C21C555B6A003E3457 /* Frameworks */,
+				79D5C8C31C555B6A003E3457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D5C8C71C555B6A003E3457 /* PBXTargetDependency */,
+			);
+			name = ZaCloudNotepadTests;
+			productName = ZaCloudNotepadTests;
+			productReference = 79D5C8C51C555B6A003E3457 /* ZaCloudNotepadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79D5C8CF1C555B6A003E3457 /* ZaCloudNotepadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D5C8DF1C555B6A003E3457 /* Build configuration list for PBXNativeTarget "ZaCloudNotepadUITests" */;
+			buildPhases = (
+				79D5C8CC1C555B6A003E3457 /* Sources */,
+				79D5C8CD1C555B6A003E3457 /* Frameworks */,
+				79D5C8CE1C555B6A003E3457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D5C8D21C555B6A003E3457 /* PBXTargetDependency */,
+			);
+			name = ZaCloudNotepadUITests;
+			productName = ZaCloudNotepadUITests;
+			productReference = 79D5C8D01C555B6A003E3457 /* ZaCloudNotepadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D5C8A91C555B69003E3457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zachary Kanzhe Liu";
+				TargetAttributes = {
+					79D5C8B01C555B69003E3457 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 948R5JDN7Q;
+					};
+					79D5C8C41C555B6A003E3457 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 948R5JDN7Q;
+						TestTargetID = 79D5C8B01C555B69003E3457;
+					};
+					79D5C8CF1C555B6A003E3457 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 948R5JDN7Q;
+						TestTargetID = 79D5C8B01C555B69003E3457;
+					};
+				};
+			};
+			buildConfigurationList = 79D5C8AC1C555B69003E3457 /* Build configuration list for PBXProject "ZaCloudNotepad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79D5C8A81C555B69003E3457;
+			productRefGroup = 79D5C8B21C555B69003E3457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D5C8B01C555B69003E3457 /* ZaCloudNotepad */,
+				79D5C8C41C555B6A003E3457 /* ZaCloudNotepadTests */,
+				79D5C8CF1C555B6A003E3457 /* ZaCloudNotepadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D5C8AF1C555B69003E3457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D5C8BC1C555B69003E3457 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D5C8C31C555B6A003E3457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D5C8CE1C555B6A003E3457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D5C8AD1C555B69003E3457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7952F2C71C5E498400960EFA /* User.swift in Sources */,
+				79D5C8E41C557928003E3457 /* NotepadIndexTableViewController.swift in Sources */,
+				79D5C8B51C555B69003E3457 /* AppDelegate.swift in Sources */,
+				79D5C8E61C55795F003E3457 /* NotepadTableViewController.swift in Sources */,
+				7952F2C51C5E440200960EFA /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D5C8C11C555B6A003E3457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D5C8CA1C555B6A003E3457 /* ZaCloudNotepadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D5C8CC1C555B6A003E3457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D5C8D51C555B6A003E3457 /* ZaCloudNotepadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D5C8C71C555B6A003E3457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D5C8B01C555B69003E3457 /* ZaCloudNotepad */;
+			targetProxy = 79D5C8C61C555B6A003E3457 /* PBXContainerItemProxy */;
+		};
+		79D5C8D21C555B6A003E3457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D5C8B01C555B69003E3457 /* ZaCloudNotepad */;
+			targetProxy = 79D5C8D11C555B6A003E3457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79D5C8D71C555B6A003E3457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79D5C8D81C555B6A003E3457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79D5C8DA1C555B6A003E3457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZaCloudNotepad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.ZaCloudNotepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79D5C8DB1C555B6A003E3457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZaCloudNotepad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.ZaCloudNotepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79D5C8DD1C555B6A003E3457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaCloudNotepadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.ZaCloudNotepadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaCloudNotepad.app/ZaCloudNotepad";
+			};
+			name = Debug;
+		};
+		79D5C8DE1C555B6A003E3457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaCloudNotepadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.ZaCloudNotepadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaCloudNotepad.app/ZaCloudNotepad";
+			};
+			name = Release;
+		};
+		79D5C8E01C555B6A003E3457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaCloudNotepadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.ZaCloudNotepadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZaCloudNotepad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79D5C8E11C555B6A003E3457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaCloudNotepadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.ZaCloudNotepadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZaCloudNotepad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D5C8AC1C555B69003E3457 /* Build configuration list for PBXProject "ZaCloudNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D5C8D71C555B6A003E3457 /* Debug */,
+				79D5C8D81C555B6A003E3457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D5C8D91C555B6A003E3457 /* Build configuration list for PBXNativeTarget "ZaCloudNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D5C8DA1C555B6A003E3457 /* Debug */,
+				79D5C8DB1C555B6A003E3457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D5C8DC1C555B6A003E3457 /* Build configuration list for PBXNativeTarget "ZaCloudNotepadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D5C8DD1C555B6A003E3457 /* Debug */,
+				79D5C8DE1C555B6A003E3457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D5C8DF1C555B6A003E3457 /* Build configuration list for PBXNativeTarget "ZaCloudNotepadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D5C8E01C555B6A003E3457 /* Debug */,
+				79D5C8E11C555B6A003E3457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79D5C8A91C555B69003E3457 /* Project object */;
+}

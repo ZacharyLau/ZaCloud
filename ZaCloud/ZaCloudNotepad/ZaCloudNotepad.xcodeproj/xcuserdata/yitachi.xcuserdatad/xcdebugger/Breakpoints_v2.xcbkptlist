@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotepadIndexTableViewController.swift"
+            timestampString = "475903555.530925"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.init (ZaCloudNotepad.NotepadIndexTableViewController.Type)(style : __C.UITableViewStyle) -&gt; ZaCloudNotepad.NotepadIndexTableViewController"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "475908201.820799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.init (ZaCloudNotepad.NotepadIndexTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ZaCloudNotepad.NotepadIndexTableViewController"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "475908201.820968"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.init (ZaCloudNotepad.NotepadIndexTableViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ZaCloudNotepad.NotepadIndexTableViewController&gt;"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "475908201.82113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotepadIndexTableViewController.swift"
+            timestampString = "475937426.746866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "NotepadIndexTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Note.swift"
+            timestampString = "476078121.658025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "init(title:noteText:author:createDate:lastModified:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotepadIndexTableViewController.swift"
+            timestampString = "476078121.658025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "tableView(_:canEditRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotepadIndexTableViewController.swift"
+            timestampString = "476071286.365367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "NotepadIndexTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.__deallocating_deinit"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "476078185.430097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.init (ZaCloudNotepad.NotepadIndexTableViewController.Type)(style : __C.UITableViewStyle) -&gt; ZaCloudNotepad.NotepadIndexTableViewController"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "476078185.430382"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.init (ZaCloudNotepad.NotepadIndexTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ZaCloudNotepad.NotepadIndexTableViewController"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "476078185.430673"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadIndexTableViewController.init (ZaCloudNotepad.NotepadIndexTableViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ZaCloudNotepad.NotepadIndexTableViewController&gt;"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadIndexTableViewController.swift"
+                  timestampString = "476078185.430891"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotepadIndexTableViewController.swift"
+            timestampString = "476078121.658025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "NotepadIndexTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotepadTableViewController.swift"
+            timestampString = "476076225.717685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "NotepadTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadTableViewController.init (ZaCloudNotepad.NotepadTableViewController.Type)(style : __C.UITableViewStyle) -&gt; ZaCloudNotepad.NotepadTableViewController"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadTableViewController.swift"
+                  timestampString = "476078967.751619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadTableViewController.init (ZaCloudNotepad.NotepadTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ZaCloudNotepad.NotepadTableViewController"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadTableViewController.swift"
+                  timestampString = "476078967.751828"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaCloudNotepad.NotepadTableViewController.init (ZaCloudNotepad.NotepadTableViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ZaCloudNotepad.NotepadTableViewController&gt;"
+                  moduleName = "ZaCloudNotepad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yitachi/Desktop/playground/ZaCloud/ZaCloudNotepad/NotepadTableViewController.swift"
+                  timestampString = "476078967.752037"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
